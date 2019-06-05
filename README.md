@@ -1,2 +1,0 @@
-# Javasscrriiiipt
-Learning Javascripts
