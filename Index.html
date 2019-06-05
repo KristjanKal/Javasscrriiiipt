@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta charset="UTF-8">
+   </head>
+   
+   
+   <body>
+ 
+ <style>
+body {
+  background-color: lightblue;
+}
+</style>
+       <H1>Javascript Treeniä</h1>
+        <h2>1. testi </h2>
+		
+<!-- ohjelmointikielissä käytetään funktioita. date() on esim javascript funktiosta.
+Koodissa suoritetaan date() funtiokutsu -->		
+		
+		  <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+     <p id="demo"></p>
+	 
+
+
+	 
+<!-- Komentti id:t linkittää javascriptin HTML:ään -->	 
+
+<!-- korvataan Date() funtio palauttaman teksti, kiinteällä "stringillä" -->
+
+<button type="button"
+onclick="document.getElementById('moro').innerHTML = 'Terve' ">
+Morjens.</button>
+
+<p id="moro"></p>
+
+
+<button type="button"
+onclick="document.getElementById('Reload').innerHTML = location.reload()">
+Reload.</button>
+
+<p id="Reload"></p>
+
+
+<button type="button" onclick="myFunction()">Blooodddyyyyy!!!!</button>
+
+<script>
+function myFunction() {
+  document.body.style.backgroundColor = "red";
+}
+</script>
+
+<h4> Full troll on </h4>
+
+<button type="button" onclick="myFunction1()">Full troll</button>
+
+<script>
+function myFunction1() {
+  document.body.style.backgroundColor = "green";
+  document.body.style.backgroundImage = "url('trolled.png')";
+}
+</script>
+
+            <h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='toybike.jpg'">Bikes</button>
+
+<img id="myImage" src="toybike.jpg" style="width:400px">
+
+<button onclick="document.getElementById('myImage').src='car_hero.png'">Cars</button>
+
+
+                    <h3> Moving troll! </h3>
+<img id="myImg" src="trolled.png" width="100" height="132">
+
+
+
+<button type="button3" onclick="floatRight()">troll right</button>
+<button type="button2" onclick="floatLeft()">troll left</button>
+
+<script>
+
+ function floatRight() {
+  document.getElementById("myImg").style.cssFloat = "right";
+}
+
+function floatLeft() {
+  document.getElementById("myImg").style.cssFloat = "left";
+}
+</script>
+
+<!-- Yhel nappil on "demo" toisel "moro" JS pystyy erottaa niitä jos on eri nimisi ja eri toimintoo -->		  
+		  
+ </body>
+</html>
